@@ -1,7 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;500&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+/*components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+@import "screens/login.css";
+
 body {
+  height: 1000vh;
   font-family: "Kanit", sans-serif;
-}
-header {
-  display: flex;
 }
