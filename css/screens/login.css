@@ -39,6 +39,7 @@
 }
 #login-form input[type="submit"] {
   background-color: cornflowerblue;
+  border-bottom: 2px solid var(--brown);
   cursor: pointer;
   border-radius: 5px;
 }
