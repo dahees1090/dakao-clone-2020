@@ -17,19 +17,11 @@
 }
 
 .nav__notification {
-  background-color: #c92936;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 400;
   position: absolute;
   left: 20px;
   bottom: 20px;
 }
+
 .dot {
   display: block;
   background-color: #c92936;
